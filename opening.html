@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulling the Sycophancy Thread — opening</title>
+<style>
+:root{
+  --bg:#fcfbf9; --fg:#1c1b19; --muted:#6b6660; --rule:#e5e1da;
+  --link:#2f6f7e; --link-hover:#1d4b56; --accent:#8a6d3b; --quote:#575049; --th:#f3f0ea;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#1a1917; --fg:#e8e5df; --muted:#9a948b; --rule:#36332e;
+         --link:#79b4c0; --link-hover:#a7d2db; --accent:#c6a267; --quote:#b7b0a6; --th:#26241f; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--fg);
+  font-family:Charter,"Iowan Old Style",Georgia,Cambria,"Times New Roman",serif;
+  font-size:19px; line-height:1.65;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+}
+.wrap{max-width:44rem; margin:0 auto; padding:2.2rem 1.25rem 4rem}
+h1{font-size:1.72rem; line-height:1.25; font-weight:700; margin:.4rem 0 1.1rem; letter-spacing:-.01em}
+p{margin:0 0 1.05rem}
+h1 + p{color:var(--muted); font-size:.92rem; line-height:1.55; font-style:italic;
+       border-left:2px solid var(--rule); padding-left:.9rem; margin:-.3rem 0 1.6rem}
+h1 + p em{font-style:italic}
+a{color:var(--link); text-decoration:none; border-bottom:1px solid transparent}
+a:hover{color:var(--link-hover); border-bottom-color:currentColor}
+strong{font-weight:700}
+.more{margin-top:2.2rem; padding-top:1.2rem; border-top:1px solid var(--rule); font-size:1rem}
+.more a{border-bottom:1px solid currentColor}
+</style>
+</head>
+<body>
+<main class="wrap">
+<h1>Pulling the Sycophancy Thread</h1>
+
+<p><em>What competent-looking output can hide: silent failures in a deployed system, then in the raters that judged it — and what a task-oriented design does to sycophancy</em></p>
+
+<p><strong>Summary.</strong> This started as a narrow measurement of sycophancy across the production conversations of Syncca, a relational-guidance system I built on Claude Sonnet 4.6. A person usually arrives flooded, sure the fault is the other's; the work is to move them from that stance — to see their own part, to hold the absent other as a distinct person, and then to choose how to act. None of that can be done by agreeing with them: to endorse the one-sided account is to fail the task. There are no instructions against sycophancy in the system. While the usual approach prompts or trains against it directly, this raised a testable question: when a task is designed so that successful execution requires holding the user's premise open, can sycophancy fall as a by-product of doing the task? Whether that task is itself a good one to give a model is beyond this article's scope.</p>
+
+<p>The prompt derives from Murray Bowen's differentiation of self and the work of David Schnarch. Beneath it sits a Lexicon: a structured progression of applied concepts and tools, gathered over two decades of working with people on their relationships. A per-turn Gate detects whether the user is emotionally flooded or regulated. The two work together, turn by turn: containing and staying curious while the user is flooded, and drawing on the Lexicon only once the user is ready to take it in.</p>
+
+<p class="more"><a href="https://doritco7-syncca.github.io/pulling-the-sycophancy-thread/">Continue to the full article →</a></p>
+</main>
+</body>
+</html>
