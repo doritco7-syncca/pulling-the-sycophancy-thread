@@ -24,9 +24,13 @@ body{
 .wrap{max-width:44rem; margin:0 auto; padding:2.2rem 1.25rem 4rem}
 h1{font-size:1.72rem; line-height:1.25; font-weight:700; margin:.4rem 0 1.1rem; letter-spacing:-.01em}
 p{margin:0 0 1.05rem}
-h1 + p{color:var(--muted); font-size:.92rem; line-height:1.55; font-style:italic;
-       border-left:2px solid var(--rule); padding-left:.9rem; margin:-.3rem 0 1.6rem}
-h1 + p em{font-style:italic}
+.byline{color:var(--muted); font-size:.9rem; margin:-.2rem 0 1.4rem; letter-spacing:.01em}
+.lede{color:var(--muted); font-size:.92rem; line-height:1.55; font-style:italic;
+       border-left:2px solid var(--rule); padding-left:.9rem; margin:-.1rem 0 1.6rem}
+.lede em{font-style:italic}
+footer{max-width:44rem; margin:0 auto; padding:.4rem 1.25rem 3rem; color:var(--muted); font-size:.8rem}
+footer a{color:var(--muted)}
+footer p{margin:.35rem 0}
 a{color:var(--link); text-decoration:none; border-bottom:1px solid transparent}
 a:hover{color:var(--link-hover); border-bottom-color:currentColor}
 strong{font-weight:700}
@@ -37,8 +41,9 @@ strong{font-weight:700}
 <body>
 <main class="wrap">
 <h1>Pulling the Sycophancy Thread</h1>
+<p class="byline">Dorit Cohen · 11 October 2026</p>
 
-<p><em>What competent-looking output can hide: silent failures in a deployed system, then in the raters that judged it — and what a task-oriented design does to sycophancy</em></p>
+<p class="lede"><em>What competent-looking output can hide: silent failures in a deployed system, then in the raters that judged it — and what a task-oriented design does to sycophancy</em></p>
 
 <p><strong>Summary.</strong> This started as a narrow measurement of sycophancy across the production conversations of Syncca, a relational-guidance system I built on Claude Sonnet 4.6. A person usually arrives flooded, sure the fault is the other's; the work is to move them from that stance — to see their own part, to hold the absent other as a distinct person, and then to choose how to act. None of that can be done by agreeing with them: to endorse the one-sided account is to fail the task. There are no instructions against sycophancy in the system. While the usual approach prompts or trains against it directly, this raised a testable question: when a task is designed so that successful execution requires holding the user's premise open, can sycophancy fall as a by-product of doing the task? Whether that task is itself a good one to give a model is beyond this article's scope.</p>
 
@@ -46,5 +51,10 @@ strong{font-weight:700}
 
 <p class="more"><a href="https://doritco7-syncca.github.io/pulling-the-sycophancy-thread/">Continue to the full article →</a></p>
 </main>
+<footer>
+<p>Dorit Cohen is a psychologist and the developer of Syncca (<a href="https://syncca.app">syncca.app</a>). Contact: doritco7 [at] gmail.com</p>
+<p>Cite as: Cohen, D. (2026). <em>Pulling the Sycophancy Thread</em>. Preprint.</p>
+<p>© 2026 Dorit Cohen · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://doritco7-syncca.github.io/Syncca-Appendix-Pulling-The-Sycophancy-Thread/">Methodology appendix</a></p>
+</footer>
 </body>
 </html>
