@@ -49,6 +49,16 @@ strong{font-weight:700}
 
 <p>The prompt derives from Murray Bowen's differentiation of self and the work of David Schnarch. Beneath it sits a Lexicon: a structured progression of applied concepts and tools, gathered over two decades of working with people on their relationships. A per-turn Gate detects whether the user is emotionally flooded or regulated. The two work together, turn by turn: containing and staying curious while the user is flooded, and drawing on the Lexicon only once the user is ready to take it in.</p>
 
+<p>I had 49 of Syncca's production conversations coded blind by two models against a frozen rubric. The rate came out low: 3 of 49, 6.1%, against the 25% Anthropic reported for relationship guidance on claude.ai (benchmark-referenced, not controlled). But the number was not the main discovery. Examining the few conversations that did fail revealed failures at different layers: subtle defects in the system's design; model behavior that could not be traced to a named component in the system; and failures in the instruments measuring it, including fabricated coding by both raters. Quote-auditing caught the fabrication; correcting it revealed one additional sycophantic conversation, raising the rate rather than lowering it — the 6.1% reported above is the corrected figure.</p>
+
+<p>The failures in all the layers left the surface intact. The outputs remained fluent, confident, and in the expected tone.</p>
+
+<p>Looking for what lay beneath those failures led to a broader question about models: what happens when a model silently accepts a user's premise, competently builds on it, and thereby potentially reinforces a position that has not been examined? That question, and the possible task-level response to it, are developed later in the article.</p>
+
+<p>The corpus is small — but that is what makes it possible to inspect each failure closely. What follows traces that path: how the rate was measured and why it may be a lower bound, how the system's elements (a "Lexicon" and a "Gate") are meant to do the work, the silent failures that emerged — in the system and in the raters judging it — and what would show the whole account wrong.</p>
+
+<p><strong>Scope and confidence.</strong> The rate is measured, but rests on one system's production traffic, with its user self-selection, and may be a lower bound. Why the rate is low is argued from the design and transcripts, not measured. The repairs are preliminary; the quality of the guidance itself is not assessed; transfer beyond relational guidance is untested. Section 6 states what would falsify each claim. I built the system, wrote the rubric, and ran the study; this is an interested party showing its work.</p>
+
 <p class="more"><a href="https://doritco7-syncca.github.io/pulling-the-sycophancy-thread/">Continue to the full article →</a></p>
 </main>
 <footer>
